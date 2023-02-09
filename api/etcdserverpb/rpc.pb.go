@@ -4406,6 +4406,10 @@ func (m *AuthEnableRequest) XXX_DiscardUnknown1() {
 	xxx_messageInfo_AuthEnableRequest.DiscardUnknown(m)
 }
 
+func (m *AuthEnableRequest) XXX_DiscardUnknown2() {
+	xxx_messageInfo_AuthEnableRequest.DiscardUnknown(m)
+}
+
 var xxx_messageInfo_AuthEnableRequest proto.InternalMessageInfo
 
 type AuthDisableRequest struct {
